@@ -1,0 +1,13 @@
+.myfont{
+    font-family: 'Courier New', Courier, monospace;
+}
+.mysubfont{
+    font-family: 'Times New Roman', Times, serif; /**using "!important" is good for debugging, but is not good because it causes competing priorities**/
+    color: aqua !important;
+}
+.myimg{
+    width:50% !important /** use this if photo is too large**/
+}
+.myitalics{
+    font-style: italic;
+}
